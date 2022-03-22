@@ -1,4 +1,4 @@
-package org.launchcode.java.studios.areaofacircle;
+package studios.areaofacircle;
 import java.util.Scanner;
 public class Area {
     public static void main(String[] args) {
@@ -12,14 +12,16 @@ public class Area {
 //        //double area;
 //        //area = (3.14 * radius * radius);
 //        System.out.println(Circle.getArea(radius));
-
-        if(input.nextDouble() <= 0) {
+            //System.out.println(input.nextDouble());
+        radius = input.nextDouble();
+        if (radius <= 0) {
             System.out.println("Invalid input. PLease enter a positive number");
         }
-        //else if (!input.hasNextDouble()) {
+//        else if (!input.hasNextDouble()) {
 //            System.out.println("Cannot be anything other than double input. PLease enter a positive number");
+//                }
          else {
-            radius = input.nextDouble();
+            //radius = input.nextDouble();
 //        while (radius < 0) {
 //            System.out.println("Invalid input. PLease enter a positive number");
 //        }
